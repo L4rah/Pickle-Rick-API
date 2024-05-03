@@ -1,0 +1,35 @@
+.character-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .character-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .character-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .character-info {
+    font-family: Arial, sans-serif;
+  }
+  
+  .character-name {
+    font-weight: bold;
+  }
+  
+  .character-gender,
+  .character-species,
+  .character-episodes,
+  .character-status,
+  .character-location {
+    margin-top: 5px;
+  }
+  
